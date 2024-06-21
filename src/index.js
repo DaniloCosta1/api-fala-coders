@@ -5,9 +5,17 @@ const port = 3000//declaro a porta da minha maquina que  será usada
 
 app.get('/', (req, res) => {
     res.send("Hello World!!!");
-    
+    console.log("funcionou")
 });
 
+
+
+
+
+
+
+
+//listen serve para ficar ativo escutando direto
 app.listen(port, () =>{
     console.log("app running!!!");
 });
